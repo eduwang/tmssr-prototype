@@ -9,7 +9,6 @@ export default defineConfig({
         main: resolve(__dirname, 'index.html'),
         exercise: resolve(__dirname, 'mainExercise/exercise.html'),
         admin: resolve(__dirname, 'admin/admin.html'),
-
       },
     },
   },
