@@ -245,9 +245,9 @@ feedbackBtn.addEventListener("click", async () => {
 
 // 이미지 캐러셀 제어
 const images = [
-  "/public/Imgs/test_1.png",
-  "/public/Imgs/test_2.png",
-  "/public/Imgs/test_3.png"
+  "../public/Imgs/test_1.png",
+  "../public/Imgs/test_2.png",
+  "../public/Imgs/test_3.png"
 ];
 
 let currentIndex = 0;
