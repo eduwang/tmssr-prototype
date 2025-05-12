@@ -6,7 +6,7 @@ import { marked } from 'marked';
 
 const adminUIDs = [
   "0eKT8AOlyhVMaMwzukJY56Dyrc52",
-  "uid_2_여기에입력",
+  "ebAYvBi8VHSpsqfmpqyrp8AWK8O2",
   "uid_3_여기에입력"
 ];
 
