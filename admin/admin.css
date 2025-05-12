@@ -1,0 +1,102 @@
+/* 전체 배경 및 기본 글꼴 설정 */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(to bottom right, #cceeff, #e6f7ff);
+    min-height: 100vh;
+  }
+  
+  /* 메인 컨테이너 박스 */
+  .container {
+    max-width: 1000px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background: white;
+    border-radius: 1.5rem;
+    box-shadow: 0 0 20px rgba(0, 128, 255, 0.1);
+  }
+  
+  /* 제목 */
+  h1 {
+    color: #007acc;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+  
+  /* 개별 항목 카드 스타일 */
+  .entry {
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+    border-radius: 1rem;
+    background: #f8fafc;
+    box-shadow: 0 0 10px rgba(0, 128, 255, 0.08);
+  }
+  
+  /* 코드, 대화 영역 */
+  .entry pre,
+  .conversation-box {
+    background: #eef6fa;
+    padding: 1rem;
+    border-radius: 0.75rem;
+    font-family: inherit;
+    white-space: pre-wrap;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+  }
+  
+  /* 교사 발화 강조 */
+  .teacher-line {
+    background-color: #d2f0ff;
+    padding: 0.2rem 0.5rem;
+    border-radius: 0.5rem;
+    font-weight: bold;
+    display: inline-block;
+    color: #007acc;
+  }
+  
+  /* 마크다운 결과 영역 */
+  .markdown {
+    background: #ffffff;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    white-space: pre-wrap;
+  }
+  
+  /* 필터 바 전체 배치 */
+  .filter-bar {
+    display: flex;
+    justify-content: flex-start;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  /* 드롭다운 공통 스타일 */
+  .filter-bar select,
+  #userSelect {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border-radius: 999px;
+    border: 1px solid #ccc;
+  }
+  
+  /* 구: 버튼 기반 필터 (참고용, 현재는 미사용) */
+  .case-filter {
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+  
+  .case-filter button {
+    background: #e0f2fe;
+    border: none;
+    padding: 0.4rem 0.8rem;
+    margin: 0.3rem;
+    border-radius: 999px;
+    cursor: pointer;
+    font-size: 0.9rem;
+  }
+  
+  .case-filter button:hover {
+    background: #90cdf4;
+  }
+  
