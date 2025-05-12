@@ -7,7 +7,7 @@ import { marked } from 'marked';
 const adminUIDs = [
   "0eKT8AOlyhVMaMwzukJY56Dyrc52",
   "ebAYvBi8VHSpsqfmpqyrp8AWK8O2",
-  "uid_3_여기에입력"
+  "ja029d1BJXY2eu3UOswGA149Mtu2"
 ];
 
 const contentDiv = document.getElementById('adminContent');
