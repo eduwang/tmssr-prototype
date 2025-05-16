@@ -11,7 +11,8 @@ const userInfoDiv = document.getElementById('userInfo');
 const adminUIDs = [
     "0eKT8AOlyhVMaMwzukJY56Dyrc52",  // 🔁 관리자 UID 추가
     "ebAYvBi8VHSpsqfmpqyrp8AWK8O2",
-    "ja029d1BJXY2eu3UOswGA149Mtu2"
+    "ja029d1BJXY2eu3UOswGA149Mtu2",
+    "dGUPdikgBigKt7maGW3MIOuW3SI2"
   ];
   
 const adminBtn = document.getElementById('goToAdmin');
